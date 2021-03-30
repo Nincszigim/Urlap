@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="sylesheet" href="urlap.css">
+    <title>eDigital</title>
+</head>
+
+<body>
+    <h3><b>Szállítási cím módosítása</b></h3>
+
+
+    <div>
+        <form>
+            <fieldset>
+                <label for="nev">Név *</label><br>
+                <input type="text" id="nev" name="nev"  class="red">
+                <label for="tel">Telefonszám *</label>
+                <select id="tel" name="tel">
+                    <option>3620</option>
+                    <option>3630</option>
+                    <option>3670</option>
+                    <option>3680</option>
+                </select>
+                <input type="text"  class="red"><br>
+                <label for="iranyitoszam">Irányítószám *</label><br>
+                <input type="text" id="iranyitoszam" name="iranyitoszam" placeholder="4032">
+                <label for="varos">Város *</label>
+                <select id="varos" name="varos">
+                    <option value="debrecen">Debrecen</option>
+                    <option value="budapest">Budapest</option>
+                    <option value="nyíregyháza">Nyíregyháza</option>
+                    <option value="derecske">Derecske</option>
+                </select><br>
+                <label for="orszag">Ország *</label>
+                <select id="orszag" name="orszag">
+                    <option value="Magyarország">Magyarország</option>
+                    <option value="Németország">Németország</option>
+                    <option value="Anglia">Anglia</option>
+                    <option value="Oroszország">Oroszország</option>
+                </select>
+                <label for="cim">Cím *</label>
+                <input type="text" id="cim" name="cim"><br><br>
+                <input type="submit" value="Mentés">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

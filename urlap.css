@@ -1,0 +1,12 @@
+.red{
+    border: 1px solid red;
+}
+
+
+
+input[type=submit] {
+    width: 35%;
+    background-color: greenyellow;
+    color: white;
+    font-weight: bold;
+}
